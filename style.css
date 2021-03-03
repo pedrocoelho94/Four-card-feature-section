@@ -4,7 +4,6 @@
 }
 
 body{
-    height: 100vh;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -13,7 +12,6 @@ body{
 }
 
 :root{
-    
     --Red: hsl(0, 78%, 62%);
     --Cyan: hsl(180, 62%, 55%);
     --Orange: hsl(34, 97%, 64%);
@@ -23,8 +21,18 @@ body{
     --lightGray: hsl(0, 0%, 98%);
 }
 
-.container{
+p{
+    color: var(--grayishBlue);
+    opacity: .7;
+}
 
+h2, h3{
+    color: var(--darkBlue);
+    opacity: 0.8;
+
+}
+
+.container{
     width: 1100px;
     max-width: 90%;
     margin: 30px auto 30px auto;
@@ -35,22 +43,19 @@ body{
     text-align: center;
 }
 
-.info-page h2{
-    font-size: 2em;
-    font-weight: 200;
-    opacity: .5;
+.info-page h1{
+    font-size: 2.53em;
 }
 
-.info-page h1{
-    opacity: .8;
+.info-page h2{
+    font-size: 2.5em;
+    font-weight: 200;
 }
 
 .info-page p{
-    font-weight: 600;
+    font-weight: 400;
     max-width: 500px;
     margin: 20px auto 20px auto;
-    opacity: .4;
-
 }
 
 .box{  
@@ -82,7 +87,6 @@ body{
 .card h2{
     font-weight: 600;
     font-size: 1.1em;
-    opacity: .7;
     margin-bottom: 5px;
 }
 
@@ -90,7 +94,7 @@ body{
     font-weight: 600;
     font-size: 0.85em;
     margin-bottom: 30px;
-    opacity: .4;
+
 }
 
 .card1{
